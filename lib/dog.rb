@@ -12,3 +12,4 @@ class Dog
     @@all.collect! {|dog| dog.name}
   end
 end
+ 
