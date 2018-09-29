@@ -11,4 +11,8 @@ class Dog
   def self.all
     @@all.collect {|dog| puts dog.name}
   end
+
+  def self.clear_all
+    @@all.clear
+  end
 end
